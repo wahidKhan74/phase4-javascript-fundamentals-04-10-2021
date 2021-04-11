@@ -3,6 +3,8 @@
 
 var x = 100 ; // global varaible.
 console.log(x);
+var x = 200 ;
+
 
 function display (){
     var y = 200;
@@ -22,9 +24,11 @@ function showLet() {
     for (let index = 0; index < 10; index++) {
         
     }
-    console.log(index);
+    // console.log(index);
 }
 
 let price = 20.820; // global varible.
+// let price = 120.820; // global varible.
+
 console.log(price);
 showLet();
